@@ -1,0 +1,56 @@
+.display-show{
+    display: block;
+}
+
+.display-hidden{
+    display: none;
+}
+
+
+.form-hidden{
+    display: none;
+}
+
+/*Configurações da APi*/
+.titulo{
+    font-size:40px
+}
+
+.subtitle{
+    margin-bottom: 1rem;
+}
+.api-container{
+    align-items: center;
+    justify-content:center;
+}
+.b-config{
+    margin-top: 1rem;
+}
+
+.text-control{
+    align-items: center;
+}
+
+
+.text-control{
+    font-family: 'nunito';
+    font-size: 16px;
+    font-weight: 700;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    display: block;
+    width: max-content;
+}
+
+.login-cadastro{
+    background-color: #f04e23;;
+    border: 1px solid #f04e23;;
+    color: #fff;
+    border-radius: 6px;
+    padding-inline-start: 20px; 
+    padding-inline-end: 20px;
+    cursor: pointer;
+    text-decoration: underline;
+}
