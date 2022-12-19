@@ -20,7 +20,7 @@ document
       msgError.appendChild(msgError_text);
     } else {
       axios
-        .get("https://visual-crossing-weather.p.rapidapi.com/location")
+        .get("http://localhost:3000/api/search")
         .then(function (response) {
           console.log(response.data);
         })
